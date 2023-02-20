@@ -126,6 +126,42 @@ def my_function():
 
 my_function()
 
+# Let's learn for Loops
+
+# Standard for loop to get index and value
+values = ['a', 'b', 'c', 'd', 'e']
+print('For loop using range(len())')
+for i in range(len(values)):
+    print(i, values[i])
+
+# For loop with enumerate
+# Provides a cleaner syntax
+print('\nFor loop using builtin enumerate():')
+for i, value in enumerate(values):
+    print(i, value)
+
+# Results previous for loops:
+# 0, a
+# 1, b
+# 2, c
+# 3, d
+# 4, e
+
+# For loop with enumerate returning index and value as a tuple
+print('\nAlternate method of using the for loop with builtin enumerate():')
+for index_value in enumerate(values):
+    print(index_value)
+
+# Results for index_value for loop:
+# (0, 'a')
+# (1, 'b')
+# (2, 'c')
+# (3, 'd')
+# (4, 'e')
+
+#Let's learn while loops!
+while (condition):
+  doThis();
 
 #Now let's learn Classes
 print("\nLine 131\n")
